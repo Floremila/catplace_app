@@ -38,7 +38,7 @@ const Home: React.FC = () => {
         className="input-field"
       />
 
-      {/* Mover el texto aquí */}
+  
       <p className="instructions">
         Click the button for each homeless cat you have seen today.
       </p>
@@ -50,7 +50,15 @@ const Home: React.FC = () => {
       <p>
         <strong>{user.name}</strong> has seen {user.catsSeen} cats today.
       </p>
+
+      <p className="thanks">
+        Thanks for helping us! Meoow :)
+      </p>
+
+
     </div>
+
+    
 );
 
 

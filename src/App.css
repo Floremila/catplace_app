@@ -37,13 +37,13 @@
   }
 }
 
-/* Centrar el contenido */
+
 .centered {
   text-align: center;
   margin-top: 50px;
 }
 
-/* Estilo del input */
+
 .input-field {
   padding: 10px;
   font-size: 16px;
@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-/* Estilo del botón */
+
 .cat-button {
   padding: 10px 20px;
   font-size: 16px;
@@ -65,5 +65,14 @@
 .cat-button:hover {
   background-color: #e68900;
 }
+
+.thanks {
+  font-weight: bold;  
+  font-size: 16px;  
+  margin-top: 10px;  
+  color: #ff9800;  
+}
+
+
 
 
