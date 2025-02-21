@@ -38,9 +38,18 @@
 }
 
 
+
 .centered {
   text-align: center;
   margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 
@@ -49,6 +58,15 @@
   font-size: 16px;
   margin-bottom: 10px;
   text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.instructions {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
 }
 
 
@@ -60,11 +78,20 @@
   border: none;
   border-radius: 5px;
   color: white;
+  transition: 0.3s;
 }
 
 .cat-button:hover {
   background-color: #e68900;
 }
+
+
+.cat-counter {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
 
 .thanks {
   font-weight: bold;  
@@ -72,6 +99,16 @@
   margin-top: 10px;  
   color: #ff9800;  
 }
+
+.about-image {
+  width: 200px;  
+  height: 200px;
+  border-radius: 50%;  
+  object-fit: cover;  
+  display: block;  
+  margin: 40px auto;  
+}
+
 
 
 

@@ -10,6 +10,8 @@ const About: React.FC = () => {
         Every 500 clicks, the company <strong>Royal Catit</strong> donates{" "}
         <strong>$100</strong> to the shelter.
       </p>
+
+      <img src="/cat-thumbs-up.png" alt="Cat giving a thumbs up" className="about-image" />
     </div>
   );
 };
