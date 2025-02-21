@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+/* Centrar el contenido */
+.centered {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo del input */
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Estilo del botón */
+.cat-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.cat-button:hover {
+  background-color: #e68900;
+}
+
+
