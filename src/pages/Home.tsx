@@ -18,6 +18,13 @@ const Home: React.FC = () => {
     }));
   };
 
+  const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setUser((prevUser) => ({
+      ...prevUser,
+      email: event.target.value,
+    }));
+  };
+
 
   const handleSeeCat = () => {
     setUser((prevUser) => ({
@@ -39,11 +46,12 @@ const Home: React.FC = () => {
         className="input-field"
       />
 
-      <p className="question">What’s your email?</p>
+      <p className="question">What’s your emailg?</p>
       <input
         type="text"
         placeholder="Enter your email"
         value={user.email}
+        onChange={handleEmailChange} 
         className="input-field"
       />
 
@@ -63,15 +71,8 @@ const Home: React.FC = () => {
       <p className="thanks">
         Thanks for helping us! Meoow :)
       </p>
-
-
-    </div>
-
-    
+    </div>  
 );
-
-
-
 };
 
 export default Home;
