@@ -6,6 +6,7 @@ const Home: React.FC = () => {
 
   const [user, setUser] = useState<User>({
     name: "Guest",
+    email: "cat@catplace.com",
     catsSeen: 0,
   });
 
@@ -35,6 +36,14 @@ const Home: React.FC = () => {
         placeholder="Enter your name"
         value={user.name}
         onChange={handleNameChange}
+        className="input-field"
+      />
+
+      <p className="question">What’s your email?</p>
+      <input
+        type="text"
+        placeholder="Enter your email"
+        value={user.email}
         className="input-field"
       />
 

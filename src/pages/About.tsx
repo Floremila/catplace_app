@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css"; // Importamos el archivo de estilos
+import "../App.css"; 
 
 const About: React.FC = () => {
   return (
