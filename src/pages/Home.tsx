@@ -46,7 +46,7 @@ const Home: React.FC = () => {
         className="input-field"
       />
 
-      <p className="question">What’s your emailg?</p>
+      <p className="question">What’s your email?</p>
       <input
         type="text"
         placeholder="Enter your email"
